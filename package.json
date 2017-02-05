@@ -1,0 +1,26 @@
+{
+	"name": "upload-type",
+	"version": "0.0.1",
+	"description": "Outputs the name,size and type of file uploaded",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.14.1",
+		"multer": "^1.2.1",
+		"express-fileupload": "^0.0.6",
+		"cors": "^2.8.1"
+	},
+	"engines": {
+		"node": "6.9.1"
+	},
+	"repository": {
+		"url": "https://gomix.com/#!/project/welcome-project"
+	},
+	"keywords": [
+		"node",
+		"gomix",
+		"express"
+	]
+}
